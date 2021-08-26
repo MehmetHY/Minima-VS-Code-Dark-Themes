@@ -1,0 +1,21 @@
+{
+    "name": "calmpink-dark-theme",
+    "displayName": "CalmPink Dark Theme",
+    "description": "A black & pink Visual Studio Code theme with powerful syntax colors.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "CalmPink Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/CalmPink Theme-color-theme.json"
+            }
+        ]
+    }
+}
