@@ -45,6 +45,7 @@
 		"scrollbarSlider.activeBackground": "#ffffff20",
 		"scrollbarSlider.background": "#f823a620",
 		"scrollbarSlider.hoverBackground": "#faa2d820",
+		"inputOption.activeForeground": "#ffffff",
 		"badge.background": "#2e2e2e",
 		"badge.foreground": "#ffffff",
 		"progressBar.background": "#e3008c",
@@ -54,7 +55,7 @@
 		"list.dropBackground": "#000000",
 		"list.focusBackground": "#000000",
 		"list.focusForeground": "#ffffff",
-		"list.focusHighlightForeground": "#000000",
+		"list.focusHighlightForeground": "#e3008c",
 		"list.focusOutline": "#e3008c",
 		"list.highlightForeground": "#ffffff",
 		"list.hoverBackground": "#1e1e1e",
@@ -148,7 +149,10 @@
 		"editorWidget.resizeBorder": "#e3008c",
 		"editorSuggestWidget.background": "#2e2e2e",
 		"editorSuggestWidget.border": "#e3008c",
-		"editorSuggestWidget.foreground": "#ffffff",
+		"editorSuggestWidget.foreground": "#b8b8b8",
+		"editorSuggestWidget.focusHighlightForeground": "#ffffff",
+		"editorSuggestWidget.highlightForeground": "#ffffff",
+		"editorSuggestWidget.selectedForeground": "#ffffff",
 		"editorSuggestWidget.selectedBackground": "#e3008c40",
 		"editorHoverWidget.foreground": "#ffffff",
 		"editorHoverWidget.background": "#2e2e2e",
@@ -256,6 +260,8 @@
 		"textLink.foreground": "#e3008c",
 		"textPreformat.foreground": "#e3008c",
 		"textSeparator.foreground": "#e3008c",
+		"editorGhostText.foreground": "#ffffff",
+		"editorGhostText.border": "#e3008c",
 		"sash.hoverBorder": "#e3008c"
 	},
 	"tokenColors": [
@@ -263,6 +269,10 @@
 			"name": "Keyword",
 			"scope": [
 				"keyword",
+				"support.type.primitive.ts",
+				"entity.name.tag.html",
+				"keyword.operator.expression.in.ts",
+				"keyword.operator.expression.of.ts"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -288,7 +298,10 @@
 				"entity.name.scope-resolution.function.definition.cpp",
 				"entity.name.scope-resolution.cpp",
 				"entity.name.type",
-				"storage.type.cs"
+				"storage.type.cs",
+				"entity.other.inherited-class",
+				"variable.other.readwrite.alias.ts",
+				"entity.other.ng-binding-name.template.html"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -311,7 +324,8 @@
 			"scope": [
 				"variable",
 				"meta.block",
-				"entity.name.variable"
+				"entity.name.variable",
+				"source.glsl"
 			],
 			"settings": {
 				"foreground": "#8fb9e3"
@@ -332,7 +346,11 @@
 		{
 			"name": "Function",
 			"scope": [
-				"entity.name.function"
+				// "entity.name.function"
+				"meta.function",
+				"entity.name.function.call",
+				"support.function.glsl",
+				"entity.name.function.cs"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -342,8 +360,8 @@
 		{
 			"name": "Function Definition",
 			"scope": [
-				"entity.name.function.definition",
-				"entity.name.function.definition.special"
+				"meta.head.function.definition",
+				"entity.name.function.definition"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -356,7 +374,8 @@
 				"meta.preprocessor.include.cpp",
 				"keyword.control.directive.include.cpp",
 				"meta.block.cpp",
-				"entity.name.function.preprocessor.cpp"
+				"entity.name.function.preprocessor.cpp",
+				"keyword.directive.preprocessor.glsl"
 			],
 			"settings": {
 				"foreground": "#ff6ffd"
@@ -407,7 +426,10 @@
 				"keyword.operator.new",
 				"keyword.control.return",
 				"keyword.operator.delete",
-				"keyword.control.flow.return"
+				"keyword.control.flow.return",
+				"variable.language.this.ts",
+				"keyword.operator.sizeof",
+				"storage.modifier.glsl"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -446,7 +468,9 @@
 				"punctuation",
 				"entity.name.function.operator",
 				"storage.modifier.reference",
-				"storage.modifier.pointer"
+				"storage.modifier.pointer",
+				"storage.type.function.arrow.ts",
+				"meta.brace"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -456,11 +480,28 @@
 		{
 			"name": "Property",
 			"scope": [
-				"entity.name.variable.property"
+				"entity.name.variable.property",
+				"meta.object-literal.key",
+				"variable.object.property.ts",
+				"meta.definition.property.ts",
+				"variable.other.property.ts",
+				"variable.other.property",
+				"support.variable.glsl",
+				"support.type.property-name.json",
+				"entity.other.attribute-name.html"
 			],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#36b7ff"
+			}
+		},
+		{
+			"name": "Other",
+			"scope": [
+				"text.html.derivative"
+			],
+			"settings": {
+				"foreground": "#dddddd"
 			}
 		}
 	]
