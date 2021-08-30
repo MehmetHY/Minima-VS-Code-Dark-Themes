@@ -137,7 +137,7 @@
 		"editor.foldBackground": "#e3008c20",
 		"editorError.foreground": "#ff0000",
 		"editorError.border": "#ff0000",
-		"editorError.background": "#000000",
+		"editorError.background": "#00000000",
 		"editorWarning.foreground": "#fbff00",
 		"editorWarning.border": "#fbff0000",
 		"problemsErrorIcon.foreground": "#ff0000",
@@ -350,7 +350,8 @@
 				"meta.function",
 				"entity.name.function.call",
 				"support.function.glsl",
-				"entity.name.function.cs"
+				"entity.name.function.cs",
+				"entity.name.function"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -373,7 +374,6 @@
 			"scope": [
 				"meta.preprocessor.include.cpp",
 				"keyword.control.directive.include.cpp",
-				"meta.block.cpp",
 				"entity.name.function.preprocessor.cpp",
 				"keyword.directive.preprocessor.glsl"
 			],
@@ -429,7 +429,8 @@
 				"keyword.control.flow.return",
 				"variable.language.this.ts",
 				"keyword.operator.sizeof",
-				"storage.modifier.glsl"
+				"storage.modifier.glsl",
+				"keyword.other.this"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -458,7 +459,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#ffa661"
+				"foreground": "#e3008c"
 			}
 		},
 		{
