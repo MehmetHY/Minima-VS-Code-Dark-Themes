@@ -272,7 +272,8 @@
 				"support.type.primitive.ts",
 				"entity.name.tag.html",
 				"keyword.operator.expression.in.ts",
-				"keyword.operator.expression.of.ts"
+				"keyword.operator.expression.of.ts",
+				"keyword.operator.logical.python"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -316,7 +317,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#ff6f6f"
+				"foreground": "#e3008c"
 			}
 		},
 		{
@@ -325,7 +326,8 @@
 				"variable",
 				"meta.block",
 				"entity.name.variable",
-				"source.glsl"
+				"source.glsl",
+				"source.python"
 			],
 			"settings": {
 				"foreground": "#8fb9e3"
@@ -351,7 +353,8 @@
 				"entity.name.function.call",
 				"support.function.glsl",
 				"entity.name.function.cs",
-				"entity.name.function"
+				"entity.name.function",
+				"meta.function-call.generic.python"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -375,7 +378,8 @@
 				"meta.preprocessor.include.cpp",
 				"keyword.control.directive.include.cpp",
 				"entity.name.function.preprocessor.cpp",
-				"keyword.directive.preprocessor.glsl"
+				"keyword.directive.preprocessor.glsl",
+				"support.variable.magic.python"
 			],
 			"settings": {
 				"foreground": "#ff6ffd"
@@ -430,7 +434,11 @@
 				"variable.language.this.ts",
 				"keyword.operator.sizeof",
 				"storage.modifier.glsl",
-				"keyword.other.this"
+				"keyword.other.this",
+				"variable.language.special.self.python",
+				"variable.parameter.function.language.special.self.python",
+				"keyword.operator.cast.static_cast.cpp",
+				"keyword.operator.cast.cpp"
 			],
 			"settings": {
 				"fontStyle": "bold",
