@@ -497,7 +497,11 @@
 				"variable.other.property",
 				"support.variable.glsl",
 				"support.type.property-name.json",
-				"entity.other.attribute-name.html"
+				"entity.other.attribute-name.html",
+				"entity.name.variable.field.cs",
+				"entity.name.variable.property.cs",
+				"variable.other.object.property.cs",
+				"variable.other.object.cs"
 			],
 			"settings": {
 				"fontStyle": "bold",
