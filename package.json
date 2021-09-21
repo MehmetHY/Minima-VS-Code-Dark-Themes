@@ -1,8 +1,8 @@
 {
-    "name": "calmpink-dark-theme",
-    "displayName": "CalmPink Dark Theme",
-    "description": "A black & pink Visual Studio Code theme with powerful syntax colors.",
-    "version": "0.0.1",
+    "name": "minima-dark-themes",
+    "displayName": "Minimalist Dark Theme Pack",
+    "description": "Minimalist Dark Theme Pack",
+    "version": "0.9.0",
     "engines": {
         "vscode": "^1.59.0"
     },
@@ -12,9 +12,104 @@
     "contributes": {
         "themes": [
             {
-                "label": "CalmPink Theme",
+                "label": "Minima Magenta High Saturation",
                 "uiTheme": "vs-dark",
-                "path": "./themes/CalmPink Theme-color-theme.json"
+                "path": "./themes/magenta-high.json"
+            },
+            {
+                "label": "Minima Magenta Low Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/magenta-low.json"
+            },
+            {
+                "label": "Minima Green High Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/green-high.json"
+            },
+            {
+                "label": "Minima Green Low Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/green-low.json"
+            },
+            {
+                "label": "Minima Dark Green High Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darkgreen-high.json"
+            },
+            {
+                "label": "Minima Dark Green Low Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darkgreen-low.json"
+            },
+            {
+                "label": "Minima Aqua High Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/aqua-high.json"
+            },
+            {
+                "label": "Minima Aqua Low Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/aqua-low.json"
+            },
+            {
+                "label": "Minima Blue High Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/blue-high.json"
+            },
+            {
+                "label": "Minima Blue Low Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/blue-low.json"
+            },
+            {
+                "label": "Minima Orange High Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/orange-high.json"
+            },
+            {
+                "label": "Minima Orange Low Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/orange-low.json"
+            },
+            {
+                "label": "Minima Red High Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/red-high.json"
+            },
+            {
+                "label": "Minima Red Low Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/red-low.json"
+            },
+            {
+                "label": "Minima Pink High Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/pink-high.json"
+            },
+            {
+                "label": "Minima Pink Low Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/pink-low.json"
+            },
+            {
+                "label": "Minima Grey High Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/grey-high.json"
+            },
+            {
+                "label": "Minima Grey Low Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/grey-low.json"
+            },
+            {
+                "label": "Minima Purple High Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/purple-high.json"
+            },
+            {
+                "label": "Minima Purple Low Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/purple-low.json"
             }
         ]
     }
