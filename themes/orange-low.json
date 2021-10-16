@@ -290,7 +290,8 @@
                 "keyword.operator.typeid.cpp",
                 "keyword.other.unit",
                 "punctuation.definition.template-expression.begin.js",
-                "punctuation.definition.template-expression.end.js"
+                "punctuation.definition.template-expression.end.js",
+                "keyword.operator.expression"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -320,7 +321,8 @@
                 "entity.other.ng-binding-name.template.html",
                 "entity.name.operator.type.cpp",
                 "meta.tag.sgml",
-                "variable.other.readwrite.alias.js"
+                "variable.other.readwrite.alias.js",
+                "constant.other.table-name.sql"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -353,7 +355,8 @@
                 "source.python",
                 "source.kotlin",
                 "meta.template.expression.kotlin",
-                "variable.other.readwrite.js"
+                "variable.other.readwrite.js",
+                "source.sql"
             ],
             "settings": {
                 "foreground": "#a5c3e0"
@@ -432,7 +435,10 @@
         },
         {
             "name": "Namespace",
-            "scope": ["entity.name.namespace"],
+            "scope": [
+                "entity.name.namespace",
+                "constant.other.database-name.sql"
+            ],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#7676ff"
@@ -470,7 +476,9 @@
                 "keyword.operator.cast.cpp",
                 "source.css.embedded.html",
                 "entity.other.attribute-name.class.css",
-                "entity.other.attribute-name.id.css"
+                "entity.other.attribute-name.id.css",
+                "variable.language.this.js",
+                "variable.language.super.js"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -538,7 +546,9 @@
                 "variable.other.object.property.cs",
                 "variable.other.object.cs",
                 "support.type.property-name.css",
-                "variable.other.object.property.js"
+                "variable.other.object.property.js",
+                "support.variable.property",
+                "variable.object.property.js"
             ],
             "settings": {
                 "fontStyle": "bold",
