@@ -110,6 +110,16 @@
                 "label": "Minima Purple Low Saturation",
                 "uiTheme": "vs-dark",
                 "path": "./themes/purple-low.json"
+            },
+            {
+                "label": "Minima Yellow High Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/yellow-high.json"
+            },
+            {
+                "label": "Minima Yellow Low Saturation",
+                "uiTheme": "vs-dark",
+                "path": "./themes/yellow-low.json"
             }
         ]
     }
