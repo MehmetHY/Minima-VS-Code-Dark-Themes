@@ -1,5 +1,5 @@
 # Minima VS Code Dark Themes
-A VS Code theme pack that has a simple UI style with a colorful syntax highlighting.
+A VS Code theme pack that has a simple UI style with a colorful syntax highlighting. Good for C++, C#, HTML, CSS, JavaScript, TypeScript, Python, SQL, Kotlin and GLSL.
 
 ## Themes
 * Aqua High Saturation
@@ -22,8 +22,13 @@ A VS Code theme pack that has a simple UI style with a colorful syntax highlight
 * Purple Low Saturation
 * Red High Saturation
 * Red Low Saturation
+* Yellow High Saturation
+* Yellow Low Saturation
 
 ## Usage
-Extract the folder into "$Your Installation Folder$/Microsoft VS Code/resources/app/extensions/".
+Extract the zip into:
+Windows: %USERPROFILE%\.vscode\extensions
+macOS: ~/.vscode/extensions
+Linux: ~/.vscode/extensions
 
 ![Alt text](../screenshots/ss.png?raw=true "Title")
