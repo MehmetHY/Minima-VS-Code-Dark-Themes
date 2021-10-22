@@ -27,8 +27,8 @@ A VS Code theme pack that has a simple UI style with a colorful syntax highlight
 
 ## Usage
 Extract the zip into:
-Windows: %USERPROFILE%\.vscode\extensions
-macOS: ~/.vscode/extensions
-Linux: ~/.vscode/extensions
+* Windows: %USERPROFILE%\.vscode\extensions
+* macOS: ~/.vscode/extensions
+* Linux: ~/.vscode/extensions
 
 ![Alt text](../screenshots/ss.png?raw=true "Title")
